@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.page-container {
+  max-width: 980px;
+  margin: 20px auto 0;
+  display: flex;
+  gap: 50px;
+}
+.left-side {
+  width: 25%;
+  background-color: #3a5e90;
+}
+
+.right-side {
+  float: right;
+  width: calc(75% - 6px);
+}
+ul {
+  list-style: none; /* Прибирає маркери */
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  font-size: 14px; /* Розмір шрифту */
+  color: black; /* Колір тексту */
+}
+#title {
+  font-size: 17px; /* Змінює розмір шрифту */
+  color: white; /* Змінює колір тексту */
+  text-align: left; /* Вирівнює текст по центру */
+  font-weight: bold;
+}
+hr {
+  height: 2px;
+  width: 250px;
+  background-color: white;
+}
+.background
+{
+  background-color: #3a5e90;
+}
+.textwhite li
+{
+   color: white;
+}
